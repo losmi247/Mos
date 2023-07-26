@@ -1,3 +1,6 @@
+# build folder
+build/
+
 # micro editor logs
 log.txt
 src/log.txt
