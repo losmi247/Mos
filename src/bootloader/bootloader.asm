@@ -132,7 +132,7 @@ msg_hello:
 	db 'Hello MOS!', ENDL, 0
 
 
-; We put the bootloader into first sector (512B) of a USB drive.
+; We put the bootloader into first sector (512B) of a hard disk.
 ; Need a 0x55AA signature at end so that BIOS knows it's a bootloader,
 ; so we manually fill the rest 512-2-($-$$) bytes of this program 
 ; with zero bytes.
